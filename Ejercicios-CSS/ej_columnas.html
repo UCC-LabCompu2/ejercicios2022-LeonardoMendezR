@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <title>Ejercicio Columnas</title>
 </head>
+<style>
+#columna1 {
+    position:absolute;
+    width:600px;
+    margin-top:30px;
+}
+#columna2 {
+    position:absolute;
+    width:600px;
+    margin-left:680px;
+    margin-right:20px;
+    margin-top:30px;
+}
+
+</style>
 <body>
-<!--Cree los estilos CSS necesarios para que el texto se visualice en 2 columnas-->
-<header>
-    <h1 id="tituloPrincipal">Diario On-line</h1>
-</header>
-<a href="ej_leyes.html" target="_blank">Legal</a>
-<section>
-    <h3 class="tituloNoticia">CordoBici</h3>
+    <header>
+        <h1 id="tituloPrincipal" >Diario On-line</h1>
+    </header>
+    <a href="ej_leyes.html" target="_blank">Legal</a>
+    <h3 class="tituloNoticia" >CordoBici</h3>
     Publicado el 07/03/2018 en Agropecuarias y Ambiente
+    <section>
     <article>
-        <div>
+        <div id="columna1">
             <p>
                 Un intercambio académico inspiró a Joaquín, Nicolás, Guido y Facundo para elegir el tema de su trabajo final.
                 Dos de ellos estuvieron el año pasado en Sevilla y se quedaron "enamorados" –palabras textuales- de su
@@ -27,7 +41,7 @@
                 industriales, sino que se trata de una valiosa propuesta que la Municipalidad de nuestra ciudad está
                 interesada en implementar.
             </p>
-
+            
             <h5 class="tituloNoticia">Investigación innovadora</h5>
 
             <p>
@@ -44,7 +58,7 @@
                 de la tesis.
             </p>
         </div>
-        <div class="grid-item">
+        <div id="columna2" ><!--class="grid-item"-->
             <p>
                 Gracias a una profunda investigación comercial, sumada a una simulación realizada por un programa llamado
                 anylogic, consiguieron localizar de manera estratégica 19 estaciones con 280 bicicletas, en Nueva Córdoba y

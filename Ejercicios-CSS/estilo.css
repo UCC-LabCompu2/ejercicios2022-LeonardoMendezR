@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    background:linear-gradient(to right,#5fda54,#3ae6ac)
+}
+div{
+    border: 2px dashed #23ff1b;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px 30px;
+    box-shadow:10px 20px rgb(11, 90, 60);
+}
+img{
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+}
+div h3{
+    font-family: 'Inter', sans-serif;
+    text-shadow: 10px 5px #999;
+}
